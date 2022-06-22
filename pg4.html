@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylePg.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/cuidados-de-saude.png">
+
+<body onload="JavaScript:AjustarIFrame();"></body>
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Saúde</h1>
+            <h1>Mental</h1>
+        </div>
+
+        <ul>
+            <a href="">
+                <li>Inicio</li>
+            </a>
+
+            <a href="pg3.html">
+                <li>página anterior</li>
+            </a>
+
+            <a href="pg5.html">
+                <li>próxma página</li>
+            </a>
+
+            <a href="formulario.html" target="_blank" id="inscreva-se-btn">
+                <li>cadastre-se</li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="container">
+        <img src="assets/img/Depression-pana.png" width="500" alt="">
+    </div>
+
+    <h2>Quais são os sinais de alerta para o comprometimento da saúde mental?</h2>
+    <p>Tanto o corpo quanto a própria mente lançam alertas para a presença de doenças psíquicas:
+
+        comer muito ou pouco;
+        falta ou excesso de sono;
+        afastar-se das pessoas;
+        perder a vontade ou o prazer nas atividades habituais;
+        sentir-se com pouca ou nenhuma energia mesmo após repousar;
+        ter dificuldade em repousar;
+        sentir-se anestesiado ou como se nada importasse;
+        sentir culpa, desesperança ou impotência constantemente;
+        fumar, beber ou usar drogas descontroladamente;
+        apresentar sensações como confusão, esquecimento, tensão, raiva, chateação, preocupação ou medo em vários
+        momentos do dia, quase todos os dias da semana;
+        apresentar comportamentos agressivos ou raivosos com familiares e amigos;
+        ouvir pessoas próximas falando que notam mudanças de humor intensas e que estão preocupadas com isso;
+        ter memórias e pensamentos persistentes e invasivos;
+        ouvir vozes ou ver imagens que ninguém mais vê;
+        acreditar em coisas que a maioria das pessoas não acredita;
+        pensar ou agir para prejudicar a si mesmo ou aos outros;
+        ser incapaz de realizar tarefas diárias;
+        ter pensamentos de que não queria existir.
+        Além disso, vale a pena estar alerta para uma situação urgente: os pensamentos de tirar a própria vida. Se você
+        já pensou em como faria isso e chegou a planejar mentalmente algumas ações, é hora de procurar um médico
+        urgentemente.</p>
+
+    <iframe id="meuiframe" height="50%" frameborder="0" width="100%" scrolling="auto" src="https://www.youtube.com/embed/MCh-XI7hvNE" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <h2>Como ter uma boa saúde mental?</h2>
+    <p>O primeiro passo é compreender os imensos benefícios de cuidar das nossas emoções, dos nossos sentimentos e dos
+        comportamentos. Com bem-estar, você será mais capaz de:
+
+        perceber todo o seu potencial;
+        lidar com eventos e situações desafiadoras, adversas ou estressantes;
+        aprender melhor e desenvolver a inteligência;
+        ter mais prazer em suas atividades sociais e afetivas;
+        trabalhar com mais produtividade;
+        contribuir para as pessoas ao seu redor e para a sociedade como um todo.</p>
+    <p>De acordo com a Secretaria de Estado da Saúde do Paraná, os principais pontos da saúde mental são:
+
+        estar bem consigo mesmo e com os outros;
+        aceitar as exigências da vida;
+        saber lidar com as boas emoções e com aquelas desagradáveis, mas que fazem parte da vida;
+        reconhecer seus limites e buscar ajuda quando necessário.</p>
+    <p>É importante lembrar-se que todas as pessoas podem apresentar sinais de sofrimento psíquico em alguma fase da
+        vida. Para manter sua saúde mental em dia, aqui vão algumas dicas:
+
+        mantenha sentimentos positivos consigo, com os outros e com a vida;
+        aceite-se e às outras pessoas, com suas qualidades e limitações;
+        evite consumo de álcool, cigarro e medicamentos sem prescrição médica;
+        reserve tempo em sua vida para o lazer, a convivência com os amigos e com a família;
+        mantenha bons hábitos alimentares, durma bem e pratique atividades físicas regularmente. Se precisar de uma
+        conversa e/ou ajuda, procure um especialista de psicologia. Esses profissionais têm todo o conhecimento para
+        avaliar o seu caso e para traçar um plano de cuidados, de modo que você aprenda a lidar com a sua saúde mental.
+    </p>
+
+    <hr>
+    <footer class="footer">
+        <div>
+
+            <a href="https://www.instagram.com/marvel/" target="_blank"> <img src="assets/img/instagram.png"
+                    alt="logo do instagram" width="50"></a>
+            <a href="https://www.linkedin.com/company/marvel-entertainment/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=br"
+                target="_blank"><img src="assets/img/linkedin.png" alt="logo do linkedin" width="50"></a>
+
+        </div>
+        <h4> Gabriel Almeida &copy</h4>
+    </footer>
+
+    <script language="JavaScript" type="text/javascript">
+        window.onresize = AjustarIFrame;
+
+        function AjustarIFrame() {
+            //Identifica navegador
+            var TamanhoTopo;
+            TamanhoTopo = 113;
+
+            if (navigator.appName.indexOf("Microsoft") != -1) {
+                document.getElementById('meuiframe').height = document.documentElement.clientHeight - TamanhoTopo;
+            }
+            else {
+                document.getElementById('meuiframe').height = window.innerHeight - TamanhoTopo;
+            }
+        }
+    </script>
+</body>
+
+</html>

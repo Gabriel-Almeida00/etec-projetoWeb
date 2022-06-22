@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylePg.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/cuidados-de-saude.png">
+
+<body onload="JavaScript:AjustarIFrame();"></body>
+<title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Saúde</h1>
+            <h1>Mental</h1>
+        </div>
+
+        <ul>
+            <a href="">
+                <li>Inicio</li>
+            </a>
+
+            <a href="pg2.html">
+                <li>página anterior</li>
+            </a>
+
+            <a href="pg4.html">
+                <li>próxma página</li>
+            </a>
+
+            <a href="formulario.html" target="_blank" id="inscreva-se-btn">
+                <li>cadastre-se</li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="container">
+        <img src="assets/img/Personality disorder-amico.png" width="500" alt="">
+    </div>
+
+    <h2>Qual é a importância da saúde mental?</h2>
+    <p>Normalmente, pensamos no corpo e na mente como se essas duas entidades fossem separadas uma das outra. Com isso,
+        muita gente vê a medicina como uma área que cuida apenas da saúde física, sem levar em consideração o estado
+        psíquico.</p>
+    <p>A atenção integral com a saúde é essencial. A partir dela, podemos ver que a mente faz parte do corpo, pois se
+        origina nas diversas sinapses dos nossos neurônios. Lesões e alterações nessas células podem provocar doenças
+        psiquiátricas. Da mesma forma, a nossa sensação de bem-estar influencia todo o corpo.</p>
+    <p>Por que isso acontece? Todo o nosso organismo é monitorado e controlado pelo sistema nervoso. As principais
+        informações sobre o nosso funcionamento são transmitidas pelos neurônios. Eles liberam substâncias chamadas de
+        neurotransmissores para se comunicarem uns com os outros e com outras células, especialmente as dos sistemas
+        endocrinológico e imunológico. Tudo isso é o que chamados de integração neuroimunoendócrina.</p>
+    <p>Nada acontece no nosso corpo sem o nosso sistema nervoso, que também inclui o cérebro, que nada mais é do que a
+        nossa mente. As funções corporais são integradas por bilhões de neurônios, liberando neurotransmissores que
+        recebem informações sobre o metabolismo e o meio externo, e enviam comandos para outros órgãos. Cuidar do corpo,
+        portanto, também é cuidar da mente — e vice-versa.</p>
+
+    <iframe id="meuiframe" height="50%" frameborder="0" width="100%" scrolling="auto"
+        src="https://www.youtube.com/embed/C1dA7bc_88s" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <h2>Qual é a diferença entre saúde mental e doença mental?</h2>
+    <p>Saúde abrange todos os fatores positivos — o equilíbrio entre o nosso organismo e o ambiente — que preservam o
+        bem-estar e a integridade física. A doença é o processo que afeta esse equilíbrio.</p>
+    <p>Quando falamos de cuidados com a saúde mental, não estamos nos restringindo ao tratamento de doenças que já estão
+        instaladas: estamos alertando as pessoas para a promoção de bons hábitos e para a prevenção dos processos que
+        levam ao adoecimento psíquico.</p>
+    <p>Pessoas mais felizes apresentam risco reduzido de adoecimento do corpo. A relação também é inversa: uma boa saúde
+        física previne o desenvolvimento de doenças mentais. Isso é amplamente comprovado pela ciência:
+
+        a felicidade e a satisfação pessoais estão relacionadas a bons hábitos, como a prática de exercícios físicos e
+        uma alimentação saudável. Por sua vez, pessoas com humor deprimido ficam mais predispostas a doenças crônicas e
+        a abandonar os cuidados com o corpo;
+        vários tipos de câncer e de doenças infecciosas estão relacionados ao estresse. Sabe quando alguém fala que a
+        imunidade caiu por causa de emoções negativas ou períodos difíceis na vida? Isso ocorre em função de uma
+        substância chamada cortisol, que é liberada em situações adversas e reduz a ação das células de defesa;
+        mesmo quando não estão associados a maus hábitos, pessoas que relatam sintomas ansiosos ou depressivos vivem
+        menos que as demais.</p>
+
+
+    <hr>
+    <footer class="footer">
+        <div>
+
+            <a href="https://www.instagram.com/marvel/" target="_blank"> <img src="assets/img/instagram.png"
+                    alt="logo do instagram" width="50"></a>
+            <a href="https://www.linkedin.com/company/marvel-entertainment/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=br"
+                target="_blank"><img src="assets/img/linkedin.png" alt="logo do linkedin" width="50"></a>
+
+        </div>
+        <h4> Gabriel Almeida &copy</h4>
+    </footer>
+
+    <script language="JavaScript" type="text/javascript">
+        window.onresize = AjustarIFrame;
+
+        function AjustarIFrame() {
+            //Identifica navegador
+            var TamanhoTopo;
+            TamanhoTopo = 113;
+
+            if (navigator.appName.indexOf("Microsoft") != -1) {
+                document.getElementById('meuiframe').height = document.documentElement.clientHeight - TamanhoTopo;
+            }
+            else {
+                document.getElementById('meuiframe').height = window.innerHeight - TamanhoTopo;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylePg.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/cuidados-de-saude.png">
+    <body onload="JavaScript:AjustarIFrame();"></body>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Saúde</h1>
+            <h1>Mental</h1>
+        </div>
+
+        <ul>
+            <a href="">
+                <li>Inicio</li>
+            </a>
+
+            <a href="pg1.html">
+                <li>página anterior</li>
+            </a>
+
+            <a href="pg3.html">
+                <li>próxma página</li>
+            </a>
+
+            <a href="formulario.html" target="_blank" id="inscreva-se-btn">
+                <li>cadastre-se</li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="container">
+        <img src="assets/img/Mental health-pana.png" width="500" alt="">
+    </div>
+
+    <h2>O que é saúde mental?</h2>
+    <p>Ela abrange nossa integridade emocional, psicológica e social. A saúde mental está relacionada aos nossos
+        sentimentos, às interações sociais, à satisfação com a vida, entre outros pontos. Com isso, influencia o modo
+        como pensamos, sentimos e agimos. </p>
+    <p>A mente também é um conjunto de conhecimentos e habilidades que aprendemos durante a vida, portanto, ela também
+        inclui a nossa capacidade de lidar com os desafios da vida cotidiana e dos eventos extraordinários.</p>
+    <p>A saúde mental, então, é o conjunto de recursos que temos para:
+
+        lidar com estressores, como sobrecarga de trabalho, perdas de pessoas queridas e dificuldades financeiras;
+        nos relacionarmos bem uns com os outros, gerando uma comunidade mais sadia;
+        fazer escolhas, desde as mais simples (como as peças de roupa que vamos usar) até as mais complexas (carreira e
+        perspectivas de futuro).</p>
+    <p>Notamos que há um foco maior no que diz respeito à saúde mental quando as pessoas já são adultas, e geralmente
+        isso acontece quando o comprometimento dela influencia negativamente na produtividade no trabalho. Muitas
+        pessoas só se preocupam com esse aspecto quando notam que estão mais desmotivadas, com baixa atenção ou com
+        muitos problemas na vida pessoal e profissional.</p>
+    <p>Vale a pena ressaltar, no entanto, que a saúde mental é importante em todas as fases da vida, desde a infância e
+        adolescência até a terceira idade.</p>
+    <p>Ao contrário do que muitas pessoas pensam, não é preciso ter um motivo externo para que aconteça o
+        desenvolvimento de transtornos psíquicos. Vários fatores desencadeiam e contribuem para o problema, como:
+
+        fatores biológicos, como a carga genética ou alterações na química do cérebro durante todas as fases de
+        desenvolvimento;
+        experiências de vida traumáticas, como pobreza, guerras e abusos;
+        problemas durante o parto e os primeiros meses da vida;
+        histórico familiar de problemas de saúde mental.</p>
+    <p>Tudo isso pode provocar uma série de alterações na química do nosso cérebro e levar a vários tipos de doenças
+        genéticas. Algumas delas são mais incomuns e estão relacionadas à genética, como o transtorno afetivo bipolar,
+        enquanto outras são mais comuns e se desenvolvem em pessoas predispostas ou não, como a depressão e a ansiedade.
+    </p>
+    <p>Todos nós estamos em risco de desenvolver essas doenças caso não tomemos os cuidados de prevenção. Felizmente,
+        agora há muita informação confiável disponível. Com isso, as pessoas podem agir para reduzir determinados
+        fatores de risco de desenvolvimento de condições que afetem negativamente sua saúde mental.</p>
+
+        <div class="center">
+            <iframe id="meuiframe" height="50%"frameborder="0" width="100%" scrolling="auto" src="https://www.youtube.com/embed/UwyE_XIQ7DA" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+    
+    <hr>
+
+    <footer class="footer">
+        <div>
+
+            <a href="https://www.instagram.com/marvel/" target="_blank"> <img src="assets/img/instagram.png"
+                    alt="logo do instagram" width="50"></a>
+            <a href="https://www.linkedin.com/company/marvel-entertainment/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=br"
+                target="_blank"><img src="assets/img/linkedin.png" alt="logo do linkedin" width="50"></a>
+
+        </div>
+        <h4>Gabriel Almeida &copy</h4>
+    </footer>
+
+    <script language="JavaScript" type="text/javascript">
+        window.onresize = AjustarIFrame;
+      
+        function AjustarIFrame()
+        {
+          //Identifica navegador
+          var TamanhoTopo;
+          TamanhoTopo = 113;
+      
+          if (navigator.appName.indexOf("Microsoft") != -1)
+          {
+            document.getElementById('meuiframe').height = document.documentElement.clientHeight - TamanhoTopo;
+          }
+          else
+          {
+            document.getElementById('meuiframe').height = window.innerHeight - TamanhoTopo;
+          }
+        }
+      </script>
+</body>
+
+</html>

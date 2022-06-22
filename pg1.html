@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/stylePg.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/cuidados-de-saude.png">
+    <body onload="JavaScript:AjustarIFrame();"></body>
+    <title>home</title>
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>Saúde</h1>
+            <h1>Mental</h1>
+        </div>
+
+        <ul>
+            <a href="pg1.html">
+                <li>Inicio</li>
+            </a>
+
+            <a href="index.html">
+                <li>página anterior</li>
+            </a>
+
+            <a href="pg2.html">
+                <li>próxma página</li>
+            </a>
+
+            <a href="formulario.html" target="_blank" id="inscreva-se-btn">
+                <li>cadastre-se</li>
+            </a>
+        </ul>
+    </header>
+
+    <div class="container">
+        <img class="img" src="assets/img/Mental health-bro.png" width="400" alt="">
+    </div>
+
+    <h2>O que é Saúde Mental?</h2>
+    <p>Pelas definições da Organização Mundial de Saúde (OMS), a saúde mental é “um estado de bem-estar em que o
+        indivíduo percebe suas próprias habilidades, pode lidar com as tensões normais da vida, pode trabalhar de forma
+        produtiva e frutífera e é capaz dar uma contribuição para sua comunidade“.</p>
+
+    <p>O termo é usado para descrever o nível de qualidade de vida cognitiva ou emocional. A saúde mental pode incluir a
+        capacidade de um indivíduo de apreciar a vida e procurar um equilíbrio entre as atividades e os esforços para
+        atingir a resiliência psicológica.</p>
+
+    <p>Muitas pessoas associam a saúde mental com doenças mentais, mas o conceito é muito mais abrangente. Pessoas
+        mentalmente saudáveis compreendem que ninguém é perfeito, que todos têm limites e que não se pode ser tudo para
+        todos.</p>
+
+    <p>Essas pessoas vivenciam diariamente uma série de emoções como alegria, amor, satisfação, tristeza, raiva e
+        frustração. Elas são capazes de enfrentar os desafios e as mudanças da vida cotidiana com equilíbrio, e sabem
+        procurar ajuda quando têm dificuldade em lidar com conflitos, perturbações, traumas ou transições importantes
+        nos diferentes ciclos da vida.</p>
+
+    <p>A saúde mental de uma pessoa está relacionada à forma como ela reage às exigências da vida e ao modo como
+        harmoniza seus desejos, suas capacidades, ambições, ideias e emoções. Quer saber mais sobre o assunto? Continue
+        a leitura!</p>
+
+    <div class="center"><iframe id="meuiframe" height="50%"frameborder="0" width="100%" scrolling="auto" src="https://www.youtube.com/embed/C-UXvNq7-PI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></div>
+
+
+    <hr>
+
+    <footer class="footer">
+        <div>
+
+            <a href="https://www.instagram.com/marvel/" target="_blank"> <img src="assets/img/instagram.png"
+                    alt="logo do instagram" width="50"></a>
+            <a href="https://www.linkedin.com/company/marvel-entertainment/?trk=public_profile_experience-item_profile-section-card_image-click&originalSubdomain=br"
+                target="_blank"><img src="assets/img/linkedin.png" alt="logo do linkedin" width="50"></a>
+
+        </div>
+        <h4> Gabriel Almeida &copy</h4>
+    </footer>
+
+    
+    <script language="JavaScript" type="text/javascript">
+        window.onresize = AjustarIFrame;
+      
+        function AjustarIFrame()
+        {
+          //Identifica navegador
+          var TamanhoTopo;
+          TamanhoTopo = 113;
+      
+          if (navigator.appName.indexOf("Microsoft") != -1)
+          {
+            document.getElementById('meuiframe').height = document.documentElement.clientHeight - TamanhoTopo;
+          }
+          else
+          {
+            document.getElementById('meuiframe').height = window.innerHeight - TamanhoTopo;
+          }
+        }
+      </script>
+</body>
+
+</html>
